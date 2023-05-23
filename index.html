@@ -23,22 +23,40 @@
         <div class="w-44">
           <img src="/assets/image_vault pic.png" alt="" />
         </div>
-        <span>search</span>
-        <span>category</span>
+        <span
+          ><i class="bx bx-search-alt-2"></i
+          ><input type="text" placeholder="search files...." /><i
+            class="bx bx-x"
+          ></i
+          >|
+          <p>45101 File(s) <i class="bx bx-chevron-down"></i></p
+        ></span>
+
+        <div class="flex gap-2 text-2xl">
+          <div><i class="bx bx-cog items-center"></i> Advanced Settings</div>
+          <div><i class="bx bxs-user-circle"></i> Abdul Hafiz</div>
+        </div>
       </div>
     </nav>
     <!-- Sub nav -->
     <div
       class="bg-sub-nav fixed left-0 right-0 top-20 p-5 flex items-center justify-between text-2xl"
     >
-      <div class="text-2xl"><i class="bx bx-cloud-upload"></i>Import File</div>
-      <div>upload & download icons</div>
+      <div class="text-2xl"><i class="bx bx-cloud-upload"></i> Import File</div>
+      <div>
+        <button><i class="bx bxs-to-top"></i> Publish</button>
+        <button><i class="bx bxs-download"></i> Download</button>
+        <button><i class="bx bx-git-merge"></i> Organize</button>
+        <button><i class="bx bxs-right-arrow-alt"></i> Move</button>
+        <button><i class="bx bx-share-alt"></i> Share</button>
+        <button><i class="bx bx-dots-horizontal-rounded"></i> More</button>
+      </div>
       <div>
         <i class="bx bxs-grid-alt"></i>
         <i class="bx bx-grid-alt"></i>
         <i class="bx bxs-grid"></i>
       </div>
-      <div>X Delete</div>
+      <div><i class="bx bx-x"></i> Delete</div>
     </div>
     <!-- Main body -->
     <div class="bg-main-body h-screen flex gap-2 p-3">
@@ -104,10 +122,48 @@
       </div>
     </div>
     <!-- left nav -->
-    <div class="bg-sub-nav fixed w-52 h-screen top-36 left-0">
-      Left side bar
+    <div class="bg-sub-nav fixed w-72 h-screen top-36 left-0">
+      <div class="flex bg-top-nav p-2 gap-2">
+        <button class="bg-sub-nav">Categories</button>
+        <button>Library</button>
+        <button>Agreements</button>
+      </div>
+      <div class="p-2">
+        <button><i class="bx bxs-folder text-2xl"></i> Categories</button>
+        <button>
+          <i class="bx bx-toggle-left text-2xl"></i> Extended Search
+        </button>
+      </div>
+      <div class="p-2">
+        <input type="text" placeholder="search category" class="bg-top-nav" /><i
+          class="bx bx-search-alt-2"
+        ></i>
+      </div>
+      <div class="p-2">
+        <p><i class="bx bx-checkbox"></i> EmailGraphics</p>
+        <p><i class="bx bx-checkbox"></i> Interest</p>
+        <p><i class="bx bx-checkbox"></i> Landing page</p>
+        <p><i class="bx bx-checkbox"></i> People</p>
+        <p>
+          <i class="bx bxs-right-arrow"></i
+          ><i class="bx bx-checkbox"></i> Peyton
+        </p>
+        <p><i class="bx bx-checkbox"></i> Staff</p>
+        <p>
+          <i class="bx bxs-right-arrow"></i><i class="bx bx-checkbox"></i> Trips
+        </p>
+        <p><i class="bx bx-checkbox"></i> User</p>
+        <p><i class="bx bx-checkbox"></i> Video</p>
+        <p>
+          <i class="bx bxs-right-arrow"></i><i class="bx bx-checkbox"></i> Web
+        </p>
+      </div>
     </div>
     <div class="bg-sub-nav fixed w-52 h-screen top-36 right-0">
+      <div class="bg-top-nav p-2">
+        <button class="bg-sub-nav p-2">Information</button>
+        <button>Metadata</button>
+      </div>
       <div class="p-2">
         <img src="/assets/img-4.jpeg" alt="" />
         <div class="p-5">
