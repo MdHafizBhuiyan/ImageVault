@@ -17,12 +17,26 @@
   </head>
   <body class="text-f-color px-52 pt-36">
     <nav class="bg-top-nav fixed top-0 left-0 w-screen">
-      <div class="flex items-center justify-between p-6">
+      <div class="lg:flex items-center justify-between p-6">
         <div class="w-44">
           <img src="/assets/branding.jpg" alt="" />
         </div>
-        <span>Search bar</span>
-        <span>Config</span>
+        <span>
+          <div class="relative">
+            <input type="text" placeholder="Search Files" class="lg:w-full" />
+            <i class="bx bx-search-alt-2 absolute top-0"></i>
+          </div>
+          <div class="text-xs">
+            Size<i class="bx bxs-right-arrow"></i> Orientation<i
+              class="bx bxs-right-arrow"
+            ></i>
+            Metadata<i class="bx bxs-right-arrow"></i>
+          </div>
+        </span>
+        <span class="align-middle">
+          <i class="bx bx-cog"></i> Advance Settings
+          <i class="bx bxs-user-circle"></i> Abdul Hafiz
+        </span>
       </div>
     </nav>
     <div
@@ -31,95 +45,131 @@
       <div>
         <i class="bx bxl-soundcloud font-bold text-2xl"></i> Import File
       </div>
-      <div>Upload and download icons</div>
-      <div>
+      <div class="invisible lg:visible">
+        <i class="bx bxs-download"></i>Publish
+        <i class="bx bx-download"></i>Download
+        <i class="bx bx-shape-triangle"></i>Catagories
+        <i class="bx bx-chevrons-right"></i>More
+        <i class="bx bx-share-alt"></i>Share
+      </div>
+      <div class="invisible lg:visible">
         <i class="bx bxs-grid"></i>
         <i class="bx bxs-grid-alt"></i>
         <i class="bx bx-grid-alt"></i>
       </div>
-      <div><i class="bx bxs-message-square-x"></i> Delete</div>
-    </div>
-    <div class="bg-main-body h-screen flex gap-2 p-3">
-      <div class="flex flex-col gap-2">
-        <img src="/assets/img-1.jpeg" alt="" />
-        <img src="/assets/img-2.jpeg" alt="" />
-        <img src="/assets/img-3.jpeg" alt="" />
-        <img src="/assets/img-4.jpeg" alt="" />
-        <img src="/assets/img-5.jpeg" alt="" />
-        <img src="/assets/img-5.jpeg" alt="" />
-        <img src="/assets/img-7.jpeg" alt="" />
-        <img src="/assets/img-8.jpeg" alt="" />
-        <img src="/assets/img-9.jpeg" alt="" />
-        <img src="/assets/img-10.jpeg" alt="" />
-        <img src="/assets/img-11.jpeg" alt="" />
-      </div>
-      <div class="flex flex-col gap-2">
-        <img src="/assets/img-1.jpeg" alt="" />
-        <img src="/assets/img-2.jpeg" alt="" />
-        <img src="/assets/img-3.jpeg" alt="" />
-        <img src="/assets/img-4.jpeg" alt="" />
-        <img src="/assets/img-5.jpeg" alt="" />
-        <img src="/assets/img-5.jpeg" alt="" />
-        <img src="/assets/img-7.jpeg" alt="" />
-        <img src="/assets/img-8.jpeg" alt="" />
-        <img src="/assets/img-9.jpeg" alt="" />
-        <img src="/assets/img-10.jpeg" alt="" />
-        <img src="/assets/img-11.jpeg" alt="" />
-      </div>
-      <div class="flex flex-col gap-2">
-        <img src="/assets/img-1.jpeg" alt="" />
-        <img src="/assets/img-2.jpeg" alt="" />
-        <img src="/assets/img-3.jpeg" alt="" />
-        <img src="/assets/img-4.jpeg" alt="" />
-        <img src="/assets/img-5.jpeg" alt="" />
-        <img src="/assets/img-5.jpeg" alt="" />
-        <img src="/assets/img-7.jpeg" alt="" />
-        <img src="/assets/img-8.jpeg" alt="" />
-        <img src="/assets/img-9.jpeg" alt="" />
-        <img src="/assets/img-10.jpeg" alt="" />
-        <img src="/assets/img-11.jpeg" alt="" />
-      </div>
-      <div class="flex flex-col gap-2">
-        <img src="/assets/img-1.jpeg" alt="" />
-        <img src="/assets/img-2.jpeg" alt="" />
-        <img src="/assets/img-3.jpeg" alt="" />
-        <img src="/assets/img-4.jpeg" alt="" />
-        <img src="/assets/img-5.jpeg" alt="" />
-        <img src="/assets/img-5.jpeg" alt="" />
-        <img src="/assets/img-7.jpeg" alt="" />
-        <img src="/assets/img-8.jpeg" alt="" />
-        <img src="/assets/img-9.jpeg" alt="" />
-        <img src="/assets/img-10.jpeg" alt="" />
-        <img src="/assets/img-11.jpeg" alt="" />
-      </div>
-      <div class="flex flex-col gap-2">
-        <img src="/assets/img-1.jpeg" alt="" />
-        <img src="/assets/img-2.jpeg" alt="" />
-        <img src="/assets/img-3.jpeg" alt="" />
-        <img src="/assets/img-4.jpeg" alt="" />
-        <img src="/assets/img-5.jpeg" alt="" />
-        <img src="/assets/img-5.jpeg" alt="" />
-        <img src="/assets/img-7.jpeg" alt="" />
-        <img src="/assets/img-8.jpeg" alt="" />
-        <img src="/assets/img-9.jpeg" alt="" />
-        <img src="/assets/img-10.jpeg" alt="" />
-        <img src="/assets/img-11.jpeg" alt="" />
-      </div>
-      <div class="flex flex-col gap-2">
-        <img src="/assets/img-1.jpeg" alt="" />
-        <img src="/assets/img-2.jpeg" alt="" />
-        <img src="/assets/img-3.jpeg" alt="" />
-        <img src="/assets/img-4.jpeg" alt="" />
-        <img src="/assets/img-5.jpeg" alt="" />
-        <img src="/assets/img-5.jpeg" alt="" />
-        <img src="/assets/img-7.jpeg" alt="" />
-        <img src="/assets/img-8.jpeg" alt="" />
-        <img src="/assets/img-9.jpeg" alt="" />
-        <img src="/assets/img-10.jpeg" alt="" />
-        <img src="/assets/img-11.jpeg" alt="" />
+      <div class="invisible lg:visible">
+        <i class="bx bxs-message-square-x"></i> Delete
       </div>
     </div>
-    <div class="bg-sub-nav fixed top-36 left-0 w-52 h-screen">left sidebar</div>
+    <div class="bg-main-body h-screen lg:flex md:grid grid-cols-3 gap-2 p-3">
+      <div class="flex flex-col gap-2">
+        <img src="/assets/img-1.jpeg" alt="" />
+        <img src="/assets/img-2.jpeg" alt="" />
+        <img src="/assets/img-3.jpeg" alt="" />
+        <img src="/assets/img-4.jpeg" alt="" />
+        <img src="/assets/img-5.jpeg" alt="" />
+        <img src="/assets/img-5.jpeg" alt="" />
+        <img src="/assets/img-7.jpeg" alt="" />
+        <img src="/assets/img-8.jpeg" alt="" />
+        <img src="/assets/img-9.jpeg" alt="" />
+        <img src="/assets/img-10.jpeg" alt="" />
+        <img src="/assets/img-11.jpeg" alt="" />
+      </div>
+      <div class="flex flex-col gap-2">
+        <img src="/assets/img-1.jpeg" alt="" />
+        <img src="/assets/img-2.jpeg" alt="" />
+        <img src="/assets/img-3.jpeg" alt="" />
+        <img src="/assets/img-4.jpeg" alt="" />
+        <img src="/assets/img-5.jpeg" alt="" />
+        <img src="/assets/img-5.jpeg" alt="" />
+        <img src="/assets/img-7.jpeg" alt="" />
+        <img src="/assets/img-8.jpeg" alt="" />
+        <img src="/assets/img-9.jpeg" alt="" />
+        <img src="/assets/img-10.jpeg" alt="" />
+        <img src="/assets/img-11.jpeg" alt="" />
+      </div>
+      <div class="flex flex-col gap-2">
+        <img src="/assets/img-1.jpeg" alt="" />
+        <img src="/assets/img-2.jpeg" alt="" />
+        <img src="/assets/img-3.jpeg" alt="" />
+        <img src="/assets/img-4.jpeg" alt="" />
+        <img src="/assets/img-5.jpeg" alt="" />
+        <img src="/assets/img-5.jpeg" alt="" />
+        <img src="/assets/img-7.jpeg" alt="" />
+        <img src="/assets/img-8.jpeg" alt="" />
+        <img src="/assets/img-9.jpeg" alt="" />
+        <img src="/assets/img-10.jpeg" alt="" />
+        <img src="/assets/img-11.jpeg" alt="" />
+      </div>
+      <div class="flex flex-col gap-2">
+        <img src="/assets/img-1.jpeg" alt="" />
+        <img src="/assets/img-2.jpeg" alt="" />
+        <img src="/assets/img-3.jpeg" alt="" />
+        <img src="/assets/img-4.jpeg" alt="" />
+        <img src="/assets/img-5.jpeg" alt="" />
+        <img src="/assets/img-5.jpeg" alt="" />
+        <img src="/assets/img-7.jpeg" alt="" />
+        <img src="/assets/img-8.jpeg" alt="" />
+        <img src="/assets/img-9.jpeg" alt="" />
+        <img src="/assets/img-10.jpeg" alt="" />
+        <img src="/assets/img-11.jpeg" alt="" />
+      </div>
+      <div class="flex flex-col gap-2">
+        <img src="/assets/img-1.jpeg" alt="" />
+        <img src="/assets/img-2.jpeg" alt="" />
+        <img src="/assets/img-3.jpeg" alt="" />
+        <img src="/assets/img-4.jpeg" alt="" />
+        <img src="/assets/img-5.jpeg" alt="" />
+        <img src="/assets/img-5.jpeg" alt="" />
+        <img src="/assets/img-7.jpeg" alt="" />
+        <img src="/assets/img-8.jpeg" alt="" />
+        <img src="/assets/img-9.jpeg" alt="" />
+        <img src="/assets/img-10.jpeg" alt="" />
+        <img src="/assets/img-11.jpeg" alt="" />
+      </div>
+      <div class="flex flex-col gap-2">
+        <img src="/assets/img-1.jpeg" alt="" />
+        <img src="/assets/img-2.jpeg" alt="" />
+        <img src="/assets/img-3.jpeg" alt="" />
+        <img src="/assets/img-4.jpeg" alt="" />
+        <img src="/assets/img-5.jpeg" alt="" />
+        <img src="/assets/img-5.jpeg" alt="" />
+        <img src="/assets/img-7.jpeg" alt="" />
+        <img src="/assets/img-8.jpeg" alt="" />
+        <img src="/assets/img-9.jpeg" alt="" />
+        <img src="/assets/img-10.jpeg" alt="" />
+        <img src="/assets/img-11.jpeg" alt="" />
+      </div>
+    </div>
+    <div class="bg-sub-nav mb-5 fixed top-36 left-0 w-52 h-screen">
+      <div class="flex">
+        <button class="bg-top-nav">catagories</button>
+        <button>Library</button>
+        <button>Agreements</button>
+      </div>
+      <div>
+        <i class="bx bxs-file-image"></i>Catagory
+        <i class="bx bxs-toggle-left"></i>Extra
+      </div>
+      <div class="mt-5">
+        <input
+          class="rounded-xl h-8 text-center"
+          type="text"
+          placeholder="Search   Catagory"
+        />
+      </div>
+      <div class="fixed mt-5 left-3 align-middle">
+        <ul>
+          <li><i class="bx bx-checkbox text-2xl"></i>Photos</li>
+          <li><i class="bx bx-checkbox text-2xl"></i>Vector</li>
+          <li><i class="bx bx-checkbox text-2xl"></i>Illustration</li>
+          <li><i class="bx bx-checkbox text-2xl"></i>AI Generated</li>
+          <li><i class="bx bx-checkbox text-2xl"></i>Editorial</li>
+          <li><i class="bx bx-checkbox text-2xl"></i>Video</li>
+          <li><i class="bx bx-checkbox text-2xl"></i>Templtes</li>
+        </ul>
+      </div>
+    </div>
     <div class="bg-sub-nav fixed top-36 right-0 w-52 h-screen">
       <div class="p-2">
         <img src="/assets/img-10.jpeg" alt="" />
